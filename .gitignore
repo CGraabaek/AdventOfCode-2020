@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+#remove mac file
+.DS_Store
