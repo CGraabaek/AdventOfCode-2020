@@ -36,10 +36,10 @@ My solutions to AoC 2020.
 [day25]: https://adventofcode.com/2020/day/25
 
 
-[py01]: ./Python/Day_1/day_1.py
-[py02]: ./Python/Day_2/day_2.py
-[py03]: ./Python/Day_3/day_3.py
-[py04]: ./Python/Day_4/day_4.py
+[py01]: ./Day_1/day_1.py
+[py02]: ./Day_2/day_2.py
+[py03]: ./Day_3/day_3.py
+[py04]: ./Day_4/day_4.py
 [py05]: ./Python/Day_5/day_5.py
 [py06]: ./Python/Day_6/day_6.py
 [py07]: ./Python/Day_7/day_7.py
