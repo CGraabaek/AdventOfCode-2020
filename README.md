@@ -7,6 +7,7 @@ My solutions to AoC 2020.
 |:-------:|:--------------------------------------------------------|:------------------------------:|
 | 01      | [Report Repair][day01]                                  | [:heavy_check_mark:][py01]     |                               
 | 02      | [Password Philosophy][day02]                            | [:heavy_check_mark:][py02]     |                              
+| 02      | [Toboggan Trajectory][day02]                            | [:heavy_check_mark:][py02]     |                              
 
 
 [day01]: https://adventofcode.com/2020/day/1
