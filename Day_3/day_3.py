@@ -27,8 +27,6 @@ y_coor = len(PUZZLEINPUT)
 #Get a map of where all trees are located
 tree_map = [(x,y) for y in range(0,y_coor) for x in range(0,x_coor) if PUZZLEINPUT[y][x] == "#"]
 
-
-
 trees_product = 1;
 SLOPES = [(1,1),(3,1),(5,1),(7,1),(1,2)]
 for slope in SLOPES:
