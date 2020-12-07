@@ -78,5 +78,5 @@ for line in PUZZLEINPUT:
 
 print('*'*58)
 print(f'* {bcolors.WARNING}Part 1{bcolors.ENDC} : Valid Passwords:  {bcolors.OKGREEN}{valid_passwords}{bcolors.ENDC} | Invalid Passwords {bcolors.FAIL}{len(PUZZLEINPUT)- valid_passwords}{bcolors.ENDC} *')
-print(f'* {bcolors.WARNING}Part 1{bcolors.ENDC} : Valid Passwords:  {bcolors.OKGREEN}{valid_passwords2}{bcolors.ENDC} | Invalid Passwords {bcolors.FAIL}{len(PUZZLEINPUT)- valid_passwords2}{bcolors.ENDC} *')
+print(f'* {bcolors.WARNING}Part 2{bcolors.ENDC} : Valid Passwords:  {bcolors.OKGREEN}{valid_passwords2}{bcolors.ENDC} | Invalid Passwords {bcolors.FAIL}{len(PUZZLEINPUT)- valid_passwords2}{bcolors.ENDC} *')
 print('*'*58)

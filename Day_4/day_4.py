@@ -1,5 +1,7 @@
+import time
 import re
 import itertools
+import viz
 
 print("Advent Of Code - Day 4")
 
@@ -8,7 +10,6 @@ valid_passports = []
 PUZZLEINPUT = open('input.txt', 'r').read().split("\n\n")
 
 p = re.compile('byr|iyr|eyr|hgt|hcl|ecl|pid')
-
 
 for line in PUZZLEINPUT:
     match = p.findall(line)
@@ -46,7 +47,6 @@ def validate_password(passport):
                 height = int(val.split("in")[0])
                 if height >= 59 and height <= 76:
                     valid_passport_count += 1
-            # print(f'hgt {valid} ')
         if(prop == 'hcl'):
             if re.match(r"#([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])", val):
                 valid_passport_count += 1
@@ -55,7 +55,7 @@ def validate_password(passport):
                 valid_passport_count += 1
         if(prop == 'pid'):
             if val.isdigit() and len(val) == 9:
-                valid_passport_count += 1        
+                valid_passport_count += 1
     return valid_passport_count
 
 valid = 0
@@ -69,16 +69,13 @@ for passport in valid_passports:
         for elem in all_elem:
             full_passport.append(elem)
 
-    print('*********************')
-    print(f'Validating passport {full_passport}')
     password_valid = validate_password(full_passport)
 
     if password_valid == 7:
+        time.sleep(0.5)
         valid += 1
-    print('*********************')
+        viz.printPassport(full_passport,valid,True)
+    else:
+        viz.printPassport(full_passport,valid,False)
     
-print(f"Valid password {valid} ")
-
-
-match = re.match(r"#([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])([0-9a-z])", "456623")
-print(match)
+print(f"Part 2: Valid passports {valid} ")
