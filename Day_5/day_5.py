@@ -1,5 +1,5 @@
 import math
-import viz
+
 print("Advent Of Code - Day 5")
 
 PUZZLEINPUT = open('input.txt', 'r').read().split("\n")
