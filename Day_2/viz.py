@@ -80,3 +80,8 @@ print('*'*58)
 print(f'* {bcolors.WARNING}Part 1{bcolors.ENDC} : Valid Passwords:  {bcolors.OKGREEN}{valid_passwords}{bcolors.ENDC} | Invalid Passwords {bcolors.FAIL}{len(PUZZLEINPUT)- valid_passwords}{bcolors.ENDC} *')
 print(f'* {bcolors.WARNING}Part 2{bcolors.ENDC} : Valid Passwords:  {bcolors.OKGREEN}{valid_passwords2}{bcolors.ENDC} | Invalid Passwords {bcolors.FAIL}{len(PUZZLEINPUT)- valid_passwords2}{bcolors.ENDC} *')
 print('*'*58)
+
+# with open("input.txt") as f:
+#     DATA = f.read()
+# DATA = [(password.upper(), letter) for min_limit,max_limit,letter,password in re.findall(r"([0-9]+)-([0-9]+) ([a-z]+): ([a-z]+)", DATA)]
+# print(DATA)

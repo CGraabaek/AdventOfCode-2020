@@ -9,9 +9,12 @@ My solutions to AoC 2020.
 | 02      | [Password Philosophy][day02]                            | [:heavy_check_mark:][py02]     |                              
 | 03      | [Toboggan Trajectory][day03]                            | [:heavy_check_mark:][py03]     |                              
 | 04      | [Passport Processing][day04]                            | [:heavy_check_mark:][py04]     |                              
-| 05      | [Binary Boarding][day05]                            | [][py05]     |                              
-| 06      | [Custom Customs][day06]                            | [][py05]     |                              
-| 07      | [Handy Haversacks][day07]                            | [][py05]     |                              
+| 05      | [Binary Boarding][day05]                                | [:heavy_check_mark:][py05]     |                              
+| 06      | [Custom Customs][day06]                                 | [:heavy_check_mark:][py06]     |                              
+| 07      | [Handy Haversacks][day07]                            | [][py07]     |                              
+| 08      | [Handheld Halting][day08]                            | [:heavy_check_mark:][py08]     |                              
+| 09      | [Encoding Error][day09]                            | [][py09]     |                              
+| 10      | [Adapter Array][day10]                            | [:heavy_check_mark:][py10]     |                              
 
 
 [day01]: https://adventofcode.com/2020/day/1
@@ -47,7 +50,7 @@ My solutions to AoC 2020.
 [py04]: ./Day_4/day_4.py
 [py05]: ./Day_5/day_5.py
 [py06]: ./Day_6/day_6.py
-[py07]: ./Python/Day_7/day_7.py
-[py08]: ./Python/Day_8/day_8.py
-[py09]: ./Python/Day_9/day_9.py
-[py10]: ./Python/Day_10/day_10.py
+[py07]: ./Day_7/day_7.py
+[py08]: ./Day_8/day_8.py
+[py09]: ./Day_9/day_9.py
+[py10]: ./Day_10/day_10.py
