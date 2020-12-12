@@ -1,4 +1,5 @@
 from collections import Counter
+import itertools
 
 print("Advent Of Code - Day 10")
 
@@ -51,5 +52,6 @@ def powerSet(items):
         yield combo
 
 
-allcoms = combs(JOLT_ADAPTERS)
-print(allcoms)
+combis = itertools.combinations(JOLT_ADAPTERS,len(JOLT_ADAPTERS))
+for comb in combis:
+    print(comb)

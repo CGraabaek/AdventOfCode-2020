@@ -27,4 +27,4 @@ for start in range(len(PUZZLEINPUT)):
         sub_range = PUZZLEINPUT[start:end]
         if sum(sub_range) == FINAL_TARGET: 
             result2 = min(sub_range) + max(sub_range)
-            print(f"Found {result2} in {sub_range}")
+            print(f"Part 2: Found encryption weakness in {result2} in {sub_range}")
