@@ -13,8 +13,9 @@ My solutions to AoC 2020.
 | 06      | [Custom Customs][day06]                                 | [:heavy_check_mark:][py06]     |                              
 | 07      | [Handy Haversacks][day07]                            | [][py07]     |                              
 | 08      | [Handheld Halting][day08]                            | [:heavy_check_mark:][py08]     |                              
-| 09      | [Encoding Error][day09]                            | [][py09]     |                              
-| 10      | [Adapter Array][day10]                            | [:heavy_check_mark:][py10]     |                              
+| 09      | [Encoding Error][day09]                            | [:heavy_check_mark:][py09]     |                              
+| 10      | [Adapter Array][day10]                            | [][py10]     |                              
+| 10      | [Seating System][day11]                            | [][py11]     |                              
 
 
 [day01]: https://adventofcode.com/2020/day/1
@@ -54,3 +55,4 @@ My solutions to AoC 2020.
 [py08]: ./Day_8/day_8.py
 [py09]: ./Day_9/day_9.py
 [py10]: ./Day_10/day_10.py
+[py10]: ./Day_10/day_11.py

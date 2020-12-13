@@ -13,9 +13,9 @@ for row_id, row in enumerate(PUZZLEINPUT):
     for seat_id,seat in enumerate(row):
         floor_plan[row_id, seat_id] = seat
 
-def print_floor_plan(cell_dimensions, grid):
+def print_floor_plan(grid):
     for y in range(0,MAX_ROWS):
-        print(' '.join(grid[y, x] for x in range(0,MAX_ROWS)))
+        print(' '.join(grid[y, x] for x in range(0,MAX_COLS)))
     print("")
 
 def check_adjacent_seats(floor_plan,row,col,max_occupied):
@@ -37,6 +37,7 @@ def check_adjacent_seats(floor_plan,row,col,max_occupied):
 
 new_floor_plan = {}    
 while True:
+    counter = 0
     for (row,col),seat in floor_plan.items():
         if seat == '.':
             new_floor_plan[row,col] = "."
@@ -51,8 +52,9 @@ while True:
             else:
                 new_floor_plan[row,col] = "L"
     #Floor plan bug - cant print grid
-    #print_floor_plan(MAX_ROWS,new_floor_plan)
-    
+    if counter % 2 == 0:
+        print_floor_plan(new_floor_plan)
+    counter += 1
     if new_floor_plan == floor_plan:
         occupied_seats = [item for item in floor_plan.values() if item=='#']
         print(f'Part 1: Occupied Seats {len(occupied_seats)}')
