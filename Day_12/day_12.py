@@ -138,4 +138,4 @@ def get_posistion_p2(instructions):
 pos2 = get_posistion_p2(PUZZLEINPUT)
 
 
-print(f'Part 1: Manhatten Distance is: {manhattan_distance(pos2)}')
+print(f'Part 2: Manhatten Distance is: {manhattan_distance(pos2)}')

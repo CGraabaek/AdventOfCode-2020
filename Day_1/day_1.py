@@ -1,4 +1,8 @@
+import time
+
 print("Advent Of Code - Day 1")
+
+tic = time.perf_counter()
 
 PUZZLEINPUT = open('input.txt', 'r').read().split("\n")
 data = [int(i) for i in PUZZLEINPUT]
@@ -16,4 +20,6 @@ for number1 in data:
         for number3 in data:
             if number1+number2+number3 == 2020:
                 print(f'Part 2: {number1*number2*number3}')
+                toc = time.perf_counter()
+                print(f"Execution took {toc - tic:0.4f} seconds")
                 exit()
