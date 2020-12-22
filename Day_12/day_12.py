@@ -108,7 +108,7 @@ pos = get_posistion(PUZZLEINPUT)
 print(f'Part 1: Manhatten Distance is: {manhattan_distance(pos[-1:][0])}')
 
 # Part 2
-#Refactoring part one, since roation is introduced
+#Refactoring part one for solution two, since roation is introduced
 dirs = {'N': (0, 1), 'S': (0, -1), 'W': (-1, 0), 'E': (1, 0)}
 def get_posistion_p2(instructions):
     xPos, yPos = 0, 0
