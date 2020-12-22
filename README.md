@@ -15,7 +15,18 @@ My solutions to AoC 2020.
 | 08      | [Handheld Halting][day08]                            | [:heavy_check_mark:][py08]     |                              
 | 09      | [Encoding Error][day09]                            | [:heavy_check_mark:][py09]     |                              
 | 10      | [Adapter Array][day10]                            | [][py10]     |                              
-| 10      | [Seating System][day11]                            | [][py11]     |                              
+| 11      | [Seating System][day11]                            | [][py11]     |                              
+| 12      | [Rain Risk][day12]                            | [:heavy_check_mark:][py12]     |                              
+| 13      | [Shuttle Search][day13]                            | [:heavy_check_mark:][py13]     |                              
+| 14      | [Docking Data][day14]                            | [][py14]     |                              
+| 15      | [Rambunctious Recitation][day15]                            | [][py15]     |                              
+| 16      | [Ticket Translation][day16]                            | [][py16]     |                              
+| 17      | [Conway Cubes][day17]                            | [][py17]     |                              
+| 18      | [Operation Order][day18]                            | [][py18]     |                              
+| 19      | [Monster Messages][day19]                            | [][py19]     |                              
+| 20      | [Jurassic Jigsaw][day20]                            | [][py20]     |                              
+| 21      | [Allergen Assessment][day21]                            | [][py21]     |                              
+| 22      | [Crab Combat][day22]                            | [][py22]     |                              
 
 
 [day01]: https://adventofcode.com/2020/day/1
@@ -55,4 +66,7 @@ My solutions to AoC 2020.
 [py08]: ./Day_8/day_8.py
 [py09]: ./Day_9/day_9.py
 [py10]: ./Day_10/day_10.py
-[py10]: ./Day_10/day_11.py
+[py11]: ./Day_10/day_11.py
+[py12]: ./Day_10/day_12.py
+[py13]: ./Day_10/day_13.py
+[py14]: ./Day_10/day_14.py
