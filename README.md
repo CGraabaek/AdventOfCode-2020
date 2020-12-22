@@ -70,3 +70,11 @@ My solutions to AoC 2020.
 [py12]: ./Day_10/day_12.py
 [py13]: ./Day_10/day_13.py
 [py14]: ./Day_10/day_14.py
+[py15]: ./Day_10/day_15.py
+[py16]: ./Day_10/day_16.py
+[py17]: ./Day_10/day_17.py
+[py18]: ./Day_10/day_18.py
+[py19]: ./Day_10/day_19.py
+[py20]: ./Day_10/day_20.py
+[py21]: ./Day_10/day_21.py
+[py22]: ./Day_10/day_22.py
